@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="tempstyle.css">
+
+   
+</head>
+<body >
+
+	<div class="container">
+		<h1>Temperature Converter</h1>
+		<label for="celsius">Celsius: </label>
+		<input type="number" class="input" id="celsius" name="celsius" oninput="convert('celsius')"><br><br>
+		<label for="fahrenheit">Fahrenheit:</label>
+		<input type="number" class="input" id="fahrenheit" name="fahrenheit" oninput="convert('fahrenheit')"><br><br>
+		<label for="kelvin">Kelvin:</label>
+		<input type="number" class="input" id="kelvin" name="kelvin" oninput="convert('kelvin')">
+
+	</div>
+
+	<script src="tempscript.js"></script>
+</body>
+</html>
